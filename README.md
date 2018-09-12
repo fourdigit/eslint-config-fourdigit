@@ -14,9 +14,9 @@ $ yarn add --dev @fourdigit/eslint-config-fourdigit
 
 ## Usage
 
-### Base + ES6 + React
+### Base + ES2018 + React
 
-ES6 + Reactのコードベース用設定ファイルです。
+ES2018 + Reactのコードベース用設定ファイルです。
 プロジェクトの`.eslintrc`に以下のように記述してください。
 
 ```
@@ -26,9 +26,9 @@ ES6 + Reactのコードベース用設定ファイルです。
 }
 ```
 
-### Base + ES6
+### Base + ES2018
 
-ES6のコードベース用設定ファイルです。
+ES2018のコードベース用設定ファイルです。
 プロジェクトの`.eslintrc`に以下のように記述してください。
 
 ```
@@ -38,15 +38,12 @@ ES6のコードベース用設定ファイルです。
 }
 ```
 
-ECMAScriptのバージョンをES7以降にする場合は、以下のような記述もしてください。
+ES2018以前のECMAScriptのバージョンを使用する場合は、以下のような記述もしてください。
 
 ```
 {
-  env: {
-    es7: true
-  },
   parserOptions: {
-    ecmaVersion: 7
+    ecmaVersion: 2015
   }
 }
 ```

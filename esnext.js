@@ -6,12 +6,12 @@ module.exports = {
   parser: 'babel-eslint',
 
   env: {
-    // es6(es2015)以降で使用するバージョンを指定してください
     es6: true
   },
 
   parserOptions: {
-    ecmaVersion: 6
+    ecmaVersion: 2018,
+    sourceType: 'module'
   },
 
   rules: {

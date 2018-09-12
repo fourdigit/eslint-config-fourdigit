@@ -11,12 +11,7 @@ module.exports = {
   globals: {
     document: true,
     $: true,
-    window: true,
-    _: true
-  },
-
-  parserOptions: {
-    sourceType: 'module'
+    window: true
   },
 
   rules: {
