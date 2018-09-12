@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-fourdigit",
+  "version": "5.0.0",
+  "description": "ESLint shareable config for FOURDIGIT developers",
+  "author": "fourdigit",
+  "license": "MIT",
+  "repository": "fourdigit/eslint-config-fourdigit",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "base.js",
+    "common.js",
+    "react.js"
+  ],
+  "scripts": {
+    "test": "eslint ./test/*.js",
+    "test:es5": "eslint --config ./base.js ./test/es5/*.js",
+    "test:esnext": "eslint --config ./esnext.js ./test/esnext/*.js",
+    "test:esnext-react": "eslint --config ./esnext-react.js ./test/esnext-react/*.jsx"
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2"
+  },
+  "devDependencies": {
+    "react": "^16.5.0"
+  }
+}
