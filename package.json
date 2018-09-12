@@ -21,10 +21,10 @@
     ".editorconfig"
   ],
   "scripts": {
-    "test": "eslint ./test/*.js",
-    "test:es5": "eslint --config ./base.js ./test/es5/*.js",
-    "test:esnext": "eslint --config ./esnext.js ./test/esnext/*.js",
-    "test:esnext-react": "eslint --config ./esnext-react.js ./test/esnext-react/*.jsx"
+    "test": "jest ./test",
+    "test:es5": "jest ./test/es5.spec.js",
+    "test:esnext": "jest ./test/esnext.spec.js",
+    "test:esnext-react": "jest ./test/esnext-react.spec.js"
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
@@ -35,6 +35,7 @@
     "prettier": "^1.14.2"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
     "react": "^16.5.0"
   }
 }
