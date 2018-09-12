@@ -22,7 +22,7 @@ ES2018 + Reactのコードベース用設定ファイルです。
 ```
 {
   "root": true,
-  "extends": ["fourdigit"]
+  "extends": ["@fourdigit/eslint-config-fourdigit"]
 }
 ```
 
@@ -34,7 +34,7 @@ ES2018のコードベース用設定ファイルです。
 ```
 {
   "root": true,
-  "extends": ["fourdigit/esnext"]
+  "extends": ["@fourdigit/eslint-config-fourdigit/esnext"]
 }
 ```
 
@@ -56,6 +56,14 @@ ES5のコードベース用設定ファイルです。
 ```
 {
   "root": true,
-  "extends": ["fourdigit/base"]
+  "extends": ["@fourdigit/eslint-config-fourdigit/base"]
 }
+```
+
+## Prettier
+
+プロジェクト内で`.prettierrc.js`を用意して、以下のように記述をしてください。
+
+```
+module.exports = require('@fourdigit/eslint-config-fourdigit/.prettierrc.js')
 ```
