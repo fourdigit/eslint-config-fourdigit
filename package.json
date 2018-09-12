@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-fourdigit",
-  "version": "5.0.0",
+  "name": "@fourdigit/eslint-config-fourdigit",
+  "version": "1.0.0",
   "description": "ESLint shareable config for FOURDIGIT developers",
   "author": "fourdigit",
   "license": "MIT",
@@ -12,9 +12,13 @@
   ],
   "main": "index.js",
   "files": [
+    ".eslintrc.js",
     "base.js",
-    "common.js",
-    "react.js"
+    "esnext.js",
+    "esnext-react.js",
+    ".prettierrc.js",
+    ".prettierignore",
+    ".editorconfig"
   ],
   "scripts": {
     "test": "eslint ./test/*.js",
