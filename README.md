@@ -1,5 +1,7 @@
 # ESLint Sharable Config for FOURDIGIT
 
+[![Build Status](https://travis-ci.org/fourdigit/eslint-config-fourdigit.svg?branch=master)](https://travis-ci.org/fourdigit/eslint-config-fourdigit)
+
 This package is sharable config of ESLint used in the FOURDIGIT project.
 
 ## Installation
