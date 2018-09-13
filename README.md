@@ -1,6 +1,7 @@
 # ESLint Sharable Config for FOURDIGIT
 
 [![Build Status](https://travis-ci.org/fourdigit/eslint-config-fourdigit.svg?branch=master)](https://travis-ci.org/fourdigit/eslint-config-fourdigit)
+[![Greenkeeper badge](https://badges.greenkeeper.io/fourdigit/eslint-config-fourdigit.svg)](https://greenkeeper.io/)
 
 This package is sharable config of ESLint used in the FOURDIGIT project.
 
