@@ -1,17 +1,18 @@
 /* eslint-disable no-magic-numbers */
 
 module.exports = {
-  extends: ['plugin:react/recommended'],
+  extends: [
+    'plugin:react/recommended',
+    './esnext.js'
+  ],
 
   parserOptions: {
-    ecmaVersion: 8,
-    sourceType: 'module',
     ecmaFeatures: {
       jsx: true
     }
   },
 
   rules: {
-    'jsx-quotes': [2, 'prefer-double']
+    // 必要なものをoverrideしてください
   }
 };
