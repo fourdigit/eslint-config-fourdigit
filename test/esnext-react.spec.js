@@ -1,24 +1,22 @@
-const { readFileSync } = require('fs');
 const { resolve } = require('path');
-const { Linter } = require('eslint');
+const { CLIEngine } = require('eslint');
 
-const linter = new Linter();
-const config = require('../esnext-react');
+const linter = new CLIEngine({ extends: ['./esnext-react.js'] });
 
 describe('bads', () => {
-  const source = readFileSync(resolve(__dirname, 'esnext-react/bad.jsx')).toString();
-  const subject = linter.verify(source, config);
+  const filepath = resolve(__dirname, 'esnext-react/bad.jsx');
+  const subject = linter.executeOnFiles([filepath]);
 
   it('should fail eslint verifying', () => {
-    expect(subject).not.toHaveLength(0);
+    expect(subject).not.toHaveProperty('errorCount', 0);
   });
 });
 
 describe('goods', () => {
-  const source = readFileSync(resolve(__dirname, 'esnext-react/good.jsx')).toString();
-  const subject = linter.verify(source, config);
+  const filepath = resolve(__dirname, 'esnext-react/good.jsx');
+  const subject = linter.executeOnFiles([filepath]);
 
   it('should pass eslint verifying', () => {
-    expect(subject).toHaveLength(0);
+    expect(subject).toHaveProperty('errorCount', 0);
   });
 });

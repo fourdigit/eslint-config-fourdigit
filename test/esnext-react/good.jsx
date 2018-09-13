@@ -11,11 +11,7 @@ export default class Good extends Component {
 
   render() {
     if (this.state.goodComponent) {
-      return (
-        <div className="test">
-          Hello Good Component!
-        </div>
-      );
+      return <div className="test">Hello Good Component!</div>;
     } else {
       return false;
     }
