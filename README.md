@@ -1,5 +1,7 @@
 # ESLint Sharable Config for FOURDIGIT
 
+
+[![npm](https://img.shields.io/npm/v/@fourdigit/eslint-config-fourdigit.svg)](https://www.npmjs.com/package/@fourdigit/eslint-config-fourdigit)
 [![Build Status](https://travis-ci.org/fourdigit/eslint-config-fourdigit.svg?branch=master)](https://travis-ci.org/fourdigit/eslint-config-fourdigit)
 [![Greenkeeper badge](https://badges.greenkeeper.io/fourdigit/eslint-config-fourdigit.svg)](https://greenkeeper.io/)
 
