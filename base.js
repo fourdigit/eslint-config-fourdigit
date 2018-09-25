@@ -14,6 +14,8 @@ module.exports = {
     window: true
   },
 
+  plugins: ['dollar-sign'],
+
   rules: {
     'no-unused-vars': 0,
 
@@ -30,6 +32,7 @@ module.exports = {
     'no-console': 2,
     'no-debugger': 0,
     'no-eval': 2,
+    'dollar-sign/dollar-sign': [2, 'ignoreProperties'],
 
     // styling
     'no-trailing-spaces': 2,

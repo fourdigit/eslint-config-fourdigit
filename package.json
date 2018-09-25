@@ -24,12 +24,14 @@
     "test": "jest ./test",
     "test:es5": "jest ./test/es5.spec.js",
     "test:esnext": "jest ./test/esnext.spec.js",
-    "test:esnext-react": "jest ./test/esnext-react.spec.js"
+    "test:esnext-react": "jest ./test/esnext-react.spec.js",
+    "test:dollarsign": "jest ./test/dollarsign.spec.js"
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint": "^5",
     "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-dollar-sign": "^1.0.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.2"

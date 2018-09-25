@@ -876,6 +876,10 @@ eslint-config-prettier@^3.0.1:
   dependencies:
     get-stdin "^6.0.0"
 
+eslint-plugin-dollar-sign@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-dollar-sign/-/eslint-plugin-dollar-sign-1.0.1.tgz#f34bbe4dd12e6c63be7a43138ec7e92b5da763f6"
+
 eslint-plugin-prettier@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.6.2.tgz#71998c60aedfa2141f7bfcbf9d1c459bf98b4fad"
