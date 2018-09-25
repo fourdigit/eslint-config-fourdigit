@@ -24,8 +24,7 @@
     "test": "jest ./test",
     "test:es5": "jest ./test/es5.spec.js",
     "test:esnext": "jest ./test/esnext.spec.js",
-    "test:esnext-react": "jest ./test/esnext-react.spec.js",
-    "test:dollarsign": "jest ./test/dollarsign.spec.js"
+    "test:esnext-react": "jest ./test/esnext-react.spec.js"
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",
