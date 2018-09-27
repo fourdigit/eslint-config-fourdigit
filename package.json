@@ -1,6 +1,6 @@
 {
   "name": "@fourdigit/eslint-config-fourdigit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint shareable config for FOURDIGIT developers",
   "author": "fourdigit",
   "license": "MIT",
