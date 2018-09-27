@@ -80,6 +80,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@fourdigit/editorconfig-config-fourdigit@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@fourdigit/editorconfig-config-fourdigit/-/editorconfig-config-fourdigit-1.0.1.tgz#0322f27fd9f9fd7820e6244ff4f5d4a2d5d4f283"
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"
