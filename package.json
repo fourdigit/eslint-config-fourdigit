@@ -27,6 +27,7 @@
     "test:esnext-react": "jest ./test/esnext-react.spec.js"
   },
   "dependencies": {
+    "@fourdigit/editorconfig-config-fourdigit": "^1.0.1",
     "babel-eslint": "^10.0.0",
     "eslint": "^5",
     "eslint-config-prettier": "^3.0.1",
