@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - lts/carbon
+- lts/carbon
+deploy:
+  provider: npm
+  email: vinhpq.tn@gmail.com
+  api_key:
+    secure: N/V+rVL2CYl7uGn+/ABrMXifc9Y6E1T1nPvNQkMvRr+W57u43RsUBDBVFWLU0cHY6eRgzWVxi+t0eeOq3dsQtMap2Q1HASWSSfkueiDl7itmsf4mjdGze7qa2XMg65dVlA1xLTabYNiPHwGvUaaIfihbIccY62ZxYm0MusvvXag0TGO5TwLeaOqzRP39te/WYmWmswvKbNO+f1so+TFXnvIHfyECLykf+Q6MY1OkdiXAjPpgRI3cl2myodgodxrBZIF3P0rsS7DE2NOuL7YBQwdjwDV6QUPIqG8qt1Ymg4Qo0mlcNGzpqfx75TvIKKYb6WU5xpODqR2g4whk3c+hVdl61f7Z3R4HLmZwUAMVfy+cGFAeb4PQpuPuIqFOEXy1EbtOZc21QyFMMSd7PnUoe+iZJuwlG0KpxMo6P/m+b9ATchSrT0Y0gsbQ2il/y4c/G/LUvg+CFDBiXRjV97RCQUk/UFQVfhTGqWs9N26nr8AXdO260DsrWKn3+fHj6kkqA2VHcxwTk5JECGHZUTzA846r9ohxNqVKBdE14oz+LhO61y28xm3zb1GNv9S2VDQ+M8kgPtbDHZSd6hwm9tXSWVNjadpory53TVJNssa840w4A5cyGoafTT/A5/p7cGtr0KTSYwMpy2suADZLeeKxe2zmubbroSD+Vq7/U1aVPNI=
+  on:
+    branch: master
