@@ -1,6 +1,6 @@
 {
   "name": "@fourdigit/eslint-config-fourdigit",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ESLint shareable config for FOURDIGIT developers",
   "author": "fourdigit",
   "license": "MIT",
@@ -32,9 +32,9 @@
     "eslint": "^5",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-dollar-sign": "^1.0.1",
-    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "prettier": "^1.14.2"
+    "prettier": "^1.15.1"
   },
   "devDependencies": {
     "jest": "^23.6.0",
