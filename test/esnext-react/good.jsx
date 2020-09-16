@@ -5,7 +5,7 @@ export default class Good extends Component {
     super();
 
     this.state = {
-      goodComponent: true
+      goodComponent: true,
     };
   }
 

@@ -12,6 +12,12 @@ module.exports = {
     }
   },
 
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+
   rules: {
     // 必要なものをoverrideしてください
   }
