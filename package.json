@@ -1,6 +1,6 @@
 {
   "name": "@fourdigit/eslint-config-fourdigit",
-  "version": "2.0.0-alpha2",
+  "version": "3.0.0-alpha1",
   "description": "ESLint shareable config for FOURDIGIT developers",
   "author": "fourdigit",
   "license": "MIT",
@@ -27,17 +27,20 @@
     "test:esnext-react": "jest ./test/esnext-react.spec.js"
   },
   "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "@fourdigit/editorconfig-config-fourdigit": "^1.0.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.9.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-dollar-sign": "^1.0.2",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.6",
-    "prettier": "^2.1.2"
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "@4dvn-hieu/eslint-plugin-dollar-sign": "^1.0.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "prettier": "^2.6.1"
   },
   "devDependencies": {
-    "jest": "^26.4.2",
-    "react": "^16.13.1"
+    "jest": "^27.5.1",
+    "react": "^18.0.0"
   }
 }
