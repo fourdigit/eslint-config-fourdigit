@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./base.js", "./esnext.js", "./esnext-react.js"]
-}
+  extends: ['./base.js', './esnext.js', './esnext-react.js'],
+};

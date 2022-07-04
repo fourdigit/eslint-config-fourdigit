@@ -1,22 +1,22 @@
 const { resolve } = require('path');
-const { CLIEngine } = require('eslint');
+const { ESLint } = require('eslint');
 
-const linter = new CLIEngine({ extends: ['./esnext-react.js'] });
+const linter = new ESLint({ baseConfig: { extends: ['./esnext-react.js'] } });
 
 describe('bads', () => {
   const filepath = resolve(__dirname, 'esnext-react/bad.jsx');
-  const subject = linter.executeOnFiles([filepath]);
+  const results = linter.lintFiles([filepath]);
 
   it('should fail eslint verifying', () => {
-    expect(subject).not.toHaveProperty('errorCount', 0);
+    results.then((res) => expect(res[0].errorCount).toBeGreaterThan(0));
   });
 });
 
 describe('goods', () => {
   const filepath = resolve(__dirname, 'esnext-react/good.jsx');
-  const subject = linter.executeOnFiles([filepath]);
+  const results = linter.lintFiles([filepath]);
 
   it('should pass eslint verifying', () => {
-    expect(subject).toHaveProperty('errorCount', 0);
+    results.then((res) => expect(res[0].errorCount).toBe(0));
   });
 });
